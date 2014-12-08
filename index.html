@@ -1,141 +1,324 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Kartoffeltaxi</title>
+    <title>Kartoffeltaxi: Crowdsourced Heimlieferungen für regionale Bergkartoffeln</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Das Kartoffeltaxi ist eine klimaneutrale Lieferkette für frische Bioprodukte vom Hofladen direkt zu Ihrer Haustür...">
-    <meta name="keywords" content=" Versand, Mitschicken, Mitnehmen, Transport, Lieferung, Kurier, crowd, Kartoffeltaxi, Zurich, Marktplatz, Logistik, Freddy, Christandl, Mobilitat, Nachhaltigkeit, green, Pilot Projekt, Einsiedeln, Zürich, Bern, Kartoffeln, peer-to-peer, P2P, shipping, mobility, delivery, moving, sustainable, long tail, transport, cheap, parcel, package, fast, reliable, GPS, tracking " />
-    <meta name="author" content="PolyPort">
+    <meta name="description" content="Kartoffeltaxi: Crowdsourced Heimlieferungen für regionale Bergkartoffeln">
+    <meta name="keywords" content="PolyPort, BringBee, Kartoffeltaxi, Startup, Zürich, Schweiz, kartoffeltaxi.ch, polyport.ch, Mitnahmegelegenheit, City Logistics, City-Logistik, Mitfahrgelegenheit, Pioneer, Crowdsouring, crowd-sourcing, P2P, Peer, Logistics, Logistik, Kollaborativ, Sharing Economy" />
+    <meta name="author" content="PolyPort GmbH">
 
     <!-- Le styles -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-    </style>
-    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <link href="http://externalcdn.com/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+    <![endif]-->
 
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="img/icons/favicon.png">
-
+    <!--<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">-->
+    <!--<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">-->
+    <!--<link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
   </head>
 
-
-<body>
-
-<div class="navbar navbar-fixed-top">
-  <div class="navbar-inner">
-    <div class="container">
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
-      <a class="brand" href="index.html"> Kartoffeltaxi </a> <!--  <img src= "img/polyport30px.png"> -->
-      <div class="nav-collapse">
-        <ul class="nav">
-          <li class="active"><a href="index.html">Das Kartoffeltaxi</a></li>
-          <li><a href="how.html">Wie geht's</a></li>
-          <li><a href="story.html">Unsere Geschichte</a></li>
-          <li><a href="contact.html">Kontakt</a></li>
-        </ul>
-        <div class="nav-collapse pull-right">
-          <a class="pull-right" target="_blank" href="http://eepurl.com/f2mZj"><button class="btn btn-success" type="submit">Newsletter</button></a>
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+        <div class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><img src="img/DasKartoffeltaxi_white_transparentbg.png" alt="Das Kartoffeltaxi"></a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#über">Über uns</a></li>
+                <li><a href="#why">Warum</a></li>
+                <li><a href="#how">Wie geht's?</a></li>
+                <li><a href="#how">Story</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div><!--/.nav-collapse -->
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="container">
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/PlatzimAuto_1349_500.png" alt="Ich bin klüger unterwegs.">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>"Ich bin klüger unterwegs."</h1>
+              <p class="lead">In meinem Auto ist immer noch Platz für Kartoffeln. Wenn eine Kartoffellieferung auf meinen Weg passt, nimm ich sie mit und verdiene dabei Geld.</p>
+            </div>
+          </div>
+        </div>
 
-  <!-- tag -->
-  <div class="row" style="margin-top:20px">
-    <div class="span12">
-      <h1>Das Kartoffeltaxi - Die erste klimaneutrale Lieferkette für Bioprodukte</h1>
+        <div class="item">
+          <img src="img/engagement_1349_500.png" alt="Mein Engagement für die Umwelt zahlt sich aus.">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>"Mein Engagement für die Umwelt zahlt sich aus."</h1>
+              <p class="lead">Ich fahre gerne für das Kartoffeltaxi. Ich helfe der Umwelt und kann dabei noch Geld verdienen.</p>
+            </div>
+          </div>
+        </div>
 
+        <div class="item">
+          <img src="img/lieferung_1349_500.png" alt="Ich zaubere ein Lächeln auf ein Gesicht">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>"Ich zaubere jedes Mal ein Lächeln auf ein Gesicht."</h1>
+              <p class="lead">Die Kunden freuen sich riesig auf die leckeren Bergkartoffeln. Die persönliche Lieferung unterstreicht noch einmal, dass sie damit in die regionale Wirtschaft investieren und sich beim Geniessen gut fühlen können.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/kartoffeln2_1349_500" alt="Ich bring den Hofladen in die Stadt.">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>"Ich bring den Hofladen in die Stadt."</h1>
+              <p class="lead"> </p>
+            </div>
+          </div>
+        </div>
+
+        <!--<div class="item">
+          <img src="img/slide02a.png" alt="Ich bin ein Pionier der Crowdlogistik.">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>"Ich bin ein Pionier der Crowdlogistik."</h1>
+              <p class="lead"> </p>
+            </div>
+          </div>
+        </div>-->
+
+      </div>
+
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <div class="container marketing">
+
+      <!-- über uns -->
+      <div class="row" id="über">
+        <div class="col-md-6">
+          <h2>Das Kartoffeltaxi</h2>
+          <h3>Klimaneutrale Transporte von Bioprodukten direkt vom Hofladen.</h3>
+
+          <p>70% aller Transportkapazitäten bleiben heute ungenutzt. Mit dem Kartoffeltaxi können Pendler aus der Region Schindellegi/Einsiedeln mit Zielen im Kanton Zürich ihren freien Platz im Auto nun besser nutzen und dabei noch einen Zustupf verdienen. Nehmen Sie einen Sack Kartoffeln mit auf Ihre Fahrt und erfreuen Sie einen Kunden mit einer frischen Lieferung Bergkartoffeln ab Hof. Für jede Fahrt erhalten Sie 10-20 CHF als Dankeschön, denn nachhaltiges Engagement wird bei uns belohnt.</p>
+          <p>Erfahren Sie mehr über die Geschichte der Bergkartoffeln, ihren intensiven und vielseitigen Geschmack und aussergewöhnlichen Kocheigenschaften von Freddy Christandl: <a href="http://www.christandl.ch/bergkartoffeln.html" target="_blank">www.christandl.ch/bergkartoffeln.html</a>.</p>
+        </div>
+        <div class="col-md-5 col-md-offset-1">
+           <iframe src="//player.vimeo.com/video/36646129?byline=0&amp;portrait=0&amp;color=ff9933" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <hr class="featurette-divider" id="products">
+
+
+      <!-- Warum -->
+      <div class="row" id="why">
+        <div class="col-md-12">
+          <h1>Warum Kartoffeltaxi-Fahrer werden</h1>          
+        </div>
+      </div>
+      <div class="row" >
+
+        <div class="col-md-3">
+          <h2>Umwelt schonen</h2>
+          <p>Nimm noch was auf deinem Weg mit. So sparst du unnötige Lieferfahrten und hilfst unserer Umwelt.</p>
+        </div>
+
+        <div class="col-md-3">
+          <h2>Belohnt werden</h2>
+          <p>Erhalte zwischen 10-20CHF pro mitgenommener Lieferung. Wir wollen dein Engagement für bewussten Konsum und die Umwelt anerkennen. </p>
+        </div>
+
+        <div class="col-md-3">
+          <h2>Intelligenter unterwegs</h2>
+          <p>70% aller Transportkapazitäten bleiben heute einfach leer. Sei smarter und nutz deinen Platz effizienter aus. </p>
+        </div>
+
+        <div class="col-md-3">
+          <h2>Werde Pionier</h2>
+          <p>Werde Teil der Pionier-Community von Kartoffeltaxi-Fahrern im Kanton Zürich und unterstütze effiziente Logistiklösungen.</p>
+        </div>
+        
+      </div>
+
+
+      <hr class="featurette-divider" id="products">
+      <!-- Testimonial -->
+
+      <div class="row" id="testimonial">
+        <div class="col-md-12">
+          <h1 style="margin-bottom:50px;">Was Kartoffeltaxi Fahrer sagen</h1>          
+      </div>
 
       <div class="row">
-        <div class="span4 offset1" style="margin-top:50px">
-          <h2>100% Bio: </br> Vom Acker bis auf den Tisch  </h2>
-          <p style="margin-top:20px">Bestellen Sie die exklusiven Bio-Bergkartoffeln &amp; wir finden einen Pendler, der die Kartoffeln auf dem Weg in die Stadt bei Ihnen vorbeibringt. So wird kein extra Lieferverkehr erzeugt und freier Platz im Auto besser ausgenutzt.</p>
+
+        <div class="col-md-4 ">
+          <blockquote>
+            <p>"Wirklich eine wunderbare Idee!"</p>
+            <footer>Juliane</footer>
+          </blockquote>
         </div>
-        <div class="span4">
-          <img src="img/slider_1.jpg" alt="">
+
+        <div class="col-md-4 ">
+          <blockquote>
+            <p>"Hat alles bestens geklappt, gerne wieder einmal. Ist eine super Sache!"</p>
+            <footer>Adrian</footer>
+          </blockquote>
+        </div>
+
+        <div class="col-md-2 ">
+            <img width="100%" src="img/feyder_testimonial.jpg" class="img-responsive img-rounded">
+        </div>
+
+        
+      </div>
+
+
+      <hr class="featurette-divider" id="products">
+      <!-- How -->
+      <div class="row" id="how">
+        <div class="col-md-12">
+          <h1>Wie funktioniert's?</h1> 
+        </div>         
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-4">
+          <h2>1. Anmelden</h2>
+          <p><a href="http://polyport.us2.list-manage.com/subscribe?u=59b76fd65542c27cc1f64544a&id=7816e72e3c" target="_blank">Registrieren Sie sich als Kartoffeltaxi-Fahrer </a> mit Ihrer Route und Kontaktangaben.</p>
+        </div>
+
+        <div class="col-md-4">
+          <h2>2. Mitnehmen</h2>
+          <p>Wenn eine Lieferung auf Ihre Route passt, erhalten Sie eine Email von uns und können durch beantworten der Email die Lieferung annehmen. Sie erhalten daraufhin alle Details zur Lieferung in einem Lieferschein.</p>
+        </div>
+
+        <div class="col-md-4">
+          <h2>3. Belohnt werden</h2>
+          <p>Nach der erfolgten Lieferung wird Ihre Belohnung direkt auf Ihr Konto überwiesen. 10CHF für bis 10kg, 15CHF bis 20kg und 20CHF für noch schwerere Lieferungen.</p>
         </div>
       </div>
 
 
-      <div class="row" style="margin-top:10px">
-        <div class="span6">
-          <h2>Jetzt feine Bergkartoffeln bestellen</h2>
-        </div>
-        <div class="span6">
-          <h2>Kartoffeln mitbringen</h2>
+      <hr class="featurette-divider" id="products">
+      <!-- ANMELDEN -->
+      <div class="row" id="how">
+        <div class="col-md-12">
+          <h1>Werde Teil der Kartoffeltaxi-Community</h1>          
         </div>
       </div>
 
-      <div class="row" style="margin-top:30px">
-        <!-- Bestellen-->
-        <div class="span3">
-          <img src="img/kartoffeln.jpg" class="img-rounded">
-        </div>
-        <div class="span3">
+      <div class="row">
+
+        <div class="col-md-12">
           <p>
-          Diese Kartoffeln sind Kult in Gourmetküchen.
-          Sie bestechen mit ihrem intensiven und vielseitigen Geschmack und haben aussergewöhnliche Kocheigenschaften. <a target="_blank" href="http://www.christandl.ch/heinrich.html">Familie Heinrich</a> und <a target="_blank" href="http://www.christandl.ch">Freddy Christandl</a> haben sich den Bergkartoffeln verschrieben und legen grossen Wert darauf, den Weg von der Saat bis zum Genuss auf dem Teller offenzulegen. Alles über die Kartoffeln und das Bestellformular finden Sie <a target="_blank" href="http://www.christandl.ch/kartoffeltaxiform.php">hier</a>.
+            Das sollte auf dich zutreffen:
+            <ul>
+              <li>Du bist regelmässig in Schindellegi/Einsiedeln, und kannst dort Kartoffeln abholen</li>
+              <li>Du kannst bis zu 20kg ohne Probleme tragen</li>
+              <li>Du hast Lust in der Kartoffelsaison jährlich Okt-März beim Kartoffeltaxi mitzumachen</li>
+              <li>Du tust anderen Leuten gerne einen Gefallen und die Umwelt liegt dir am Herzen</li>
+              <br/> <br/>
+            </ul>
 
           </p>
         </div>
-        <!-- Mitbringen-->
-        <div class="span3">
-          <img src="img/machmit.JPG" class="img-rounded">
-        </div>
-        <div class="span3">
-          <p>
-          Um Kartoffeln selbst mitbringen zu können, können Sie sich für das Kartoffeltaxi eintragen.
-          Wir benötigen hierzu deine Kontaktdaten und deine Fahrtstrecke. Wenn es einen Transport auf Ihrer Route gibt, melden wir uns bei Ihnen.
-          Melden Sie <a target="_blank" href="http://eepurl.com/f2mZj">Ihre Route an</a>.</p>
-        </div>
       </div>
 
-      <div class="row" style="margin-top:30px">
-        <div class="span12">
-          <h2>Von Feusisberg zu Kunden im Kanton Zürich</h2>
-        </div>
-      </div>
       <div class="row">
-        <div class="span6">
-          Abholort aller Lieferungen ist jeweils die Bäckerei Kälin in Schindellegi (Dorfstrasse 12, 8834 Schindellegi).
-          Daher eignet sich das Kartoffeltaxi vor allem für Kartoffeltaxi-Fahrer aus der Region Einsiedeln/March/Höfe.
+        <div class="col-md-6 col-md-offset-3">
+          <p><a class="btn btn-block btn-large btn-primary" href="#" target="_blank">Jetzt Kartoffeltaxi-Fahrer werden</a></p>
         </div>
-        <div class="span6">
-          <img src="img/map.JPG" class="img-rounded">
+        
+      </div>
+
+      <hr class="featurette-divider" id="products">
+
+      
+      <!-- Geschichte -->
+
+      <div class="row" id="story">
+        <div class="col-md-12">
+          <h1>Die Kartoffeltaxi Story</h1>          
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 ">
+         
+          <p>
+            "Als Genusstrainer versuche ich auch hochwertige und nachhaltig produzierte Lebensmittel bekannt zu machen und die Verbindung zwischen Erzeugern und Konsumenten herzustellen. Dabei werde ich oft gefragt, wie die regionalen Spezialitäten möglichst klimaneutral vom Bauern zum Konsumenten nach Hause kommen. Eine zukunftsweisende Lösung für diese Herausforderung konnte ich zusammen mit dem jungen Startup PolyPort erarbeiten.
+
+            PolyPort nutzt bestehende Transportkapazitäten im Alltagsverkehr um tägliche Kleinlieferungen klimaneutral abzuwickeln. Begeistert von den zwei Gründern, Stella & Philipp, fasste ich den Entschluss, zusammen mit PolyPort das Konzept "Kartoffeltaxi" zu entwickeln, um Bio-Bergkartoffeln von Schindellegi zu Feinschmeckern in Zürich zu bringen. Das Konzept war einfach und genial; Pendler aus der Region Schindellegi/Einsiedeln konnten auf Ihrem Weg nach Zürich, Kartoffelbestellungen bei der Bäckerei Kälin abholen und zu den Kunden mitnehmen. Dafür wurden die Pendler auch selbst entlohnt und konnten gleichzeitig ihre Fahrt zur Arbeit mit gutem Gewissen für unser Klima kompensieren.
+
+            Mehr als 40 Kartoffeltaxifahrer nahmen bereits 2011 am Kartoffeltaxi teil. Aufgrund der ausschliesslich positiven Resonanz, freuen wir uns dieses Projekt auch in Zukunft weiterzuführen."
+            <br/><br/>
+            <strong>Genusstrainer, Freddy Christandl</strong>
+            </p>
+           
+          </p>
+        </div>
+        <div class="col-md-6">
+           <img width="100%" src="img/freddy.jpg" class="img-responsive img-rounded">
         </div>
       </div>
 
 
-      <!-- Supporters-->
-      <div class="row" id="Supporters" style="margin-top:30px">
-        <div class="span12">
+
+
+     <hr class="featurette-divider" id="products">
+
+
+      <!-- /PARTNERS -->
+
+      <div class="row" id="partner" >
+        <div class="col-md-12">
           <h2>Unterstützt durch</h2>
           <div class="row" style="margin-top:50px">
-            <div class="span3">
-              <a href="http://http://www.christandl.ch/" ><img src="img/ChristandlWeb.jpg"  alt="Freddy Christandel"></a>
+            <div class="col-md-3">
+              <a href="http://http://www.christandl.ch/" ><img src="img/ChristandlWeb.jpg"  alt="Freddy Christandl"></a>
             </div>
 
-            <div class="span3">
+            <div class="col-md-3">
               <a href="http://www.bio-suisse.ch/" ><img src="img/biosuisseWeb.jpg"  alt="BioSuisse"></a>
             </div>
 
-            <div class="span3">
+            <div class="col-md-3">
               <a href="http://prospecierara.ch/" ><img src="img/prospecierara.png" width="30%" alt="Pro Specie Rara "></a>
             </div>
 
-            <div class="span3">
+            <div class="col-md-3">
               <a href="http://polyport.ch" ><img src="img/polyport_logo_FINAL_RGB - small.jpg" alt="PolyPort"></a>
             </div>
           </div>
@@ -143,33 +326,49 @@
       </div>
 
 
-      <!-- What's wrong  <p><a class="btn" href="#">View details &raquo;</a></p>-->
-      <hr>
 
-      <!-- Footer -->
+
+      <hr class="featurette-divider">
+
+      <!-- CONTACT -->
+      <div class="row" id="contact">
+        <div class="col-md-4">
+          <h3>Kontakt</h3>
+          <p>
+            <b>Kartoffeltaxi</b> </br>
+            eine Initiative der PolyPort GmbH</br>
+            Zürich, Schweiz</br>
+          </p>
+          <p>
+            <b>Email:</b> <a href="mailto:stella@polyport.ch">stella@polyport.ch</a>
+          </p>
+        </div>
+
+        <div class="col-md-4">
+          <h3>Firma</h3>
+          <p><b>PolyPort GmbH</b> </p>
+          <p><b>UID:</b> CHE-355.286.422</p>
+          <p><b>Handelsregister:</b> CH-020.4.046.675-4 </p>
+        </div>
+        <div class="col-md-4">
+          <h3>Stay in touch</h3>
+          <p>
+            Like: <a href="https://www.facebook.com/Kartoffeltaxi" target="_blank">www.facebook.com/Kartoffeltaxi</a></br>
+            Follow: <a href="http://twitter.com/polyport_ch" target="_blank">@polyport_ch </a> </br>
+          </p>
+        </div>
+      </div>
+
+
+      <!-- FOOTER -->
       <footer>
-        <p align="center">PolyPort GmbH  &copy; 2014</p>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2011-2015 Kartoffeltaxi | PolyPort GmbH</p>
       </footer>
 
-    </div> <!-- /container -->
+    </div><!-- /.container -->
 
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Google Analytics -->
-    <script type="text/javascript">
-
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-26458352-1']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-</body>
+    
+     <!-- Google Analytics script -->
+  </body>
 </html>
