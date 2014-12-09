@@ -51,6 +51,19 @@ body {
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
+p{
+  text-align: justify;
+}
+
+h2{
+  color:#00b800;
+}
+
+h3{
+  color:#a9a9aa;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
 
 /* Pad the edges of the mobile views a bit */
 .marketing {
@@ -63,9 +76,21 @@ body {
   text-align: center;
   margin-bottom: 20px;
 }
+.marketing h1 {
+  font-weight: normal;
+  color:#00b800;
+  text-align: center;
+  margin-bottom:30px;
+}
+
 .marketing h2 {
   font-weight: normal;
+  color:#a9a9aa;
+  font-size: 18px;
+  margin-bottom: 30px;
 }
+
+
 .marketing .col-lg-4 p {
   margin-left: 10px;
   margin-right: 10px;
